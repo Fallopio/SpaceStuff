@@ -1,0 +1,1 @@
+export const GET_PICS_OF_MARS = 'GET_PICS_OF_MARS'
