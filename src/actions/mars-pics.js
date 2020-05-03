@@ -6,7 +6,7 @@ import { GET_PICS_OF_MARS } from './action-types';
 
 export const getMarsPics = () => {
     return async dispatch => {
-        const page = Math.ceil(Math.random() * 10)
+        const page = Math.floor(Math.random() * 10)
         try {
             const response = await fetch(marsApiData.url + page + API_KEY)
             const result = await response.json()

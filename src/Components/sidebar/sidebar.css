@@ -1,0 +1,13 @@
+.sidebar {
+    font-size: larger;
+    background-color: #0e2134;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 100%;
+}
+
+.sidebar i {
+    color: grey;
+    margin: 10px;
+}
