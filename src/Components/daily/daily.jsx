@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import './daily.css'
 
 
 function Daily(props) {
@@ -7,10 +8,11 @@ function Daily(props) {
         <div className='daily'>
             {
                 props.dailyInfo ?
-                    <div className='header'>
+                    <div className='dailyDiv'>
                         <h2 className='header'>{props.dailyInfo.title}</h2>
-                        <img src={props.dailyInfo.hdurl} alt="" />
-                        <div>{props.dailyInfo.explanation}</div>
+                        <a href={props.dailyInfo.hdurl}>
+                            <img className='dailyImg' src={props.dailyInfo.hdurl} alt="" />
+                        </a>
                     </div> :
                     <div></div>
             }

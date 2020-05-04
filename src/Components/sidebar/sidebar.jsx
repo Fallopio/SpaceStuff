@@ -16,7 +16,9 @@ function Sidebar() {
             <Link to='/marsPics'>
                 <i className="fas fa-camera"></i>
             </Link>
-            <i className="far fa-image"></i>
+            <Link to='/daily'>
+                <i className="far fa-image"></i>
+            </Link>
         </div>
     )
 }
