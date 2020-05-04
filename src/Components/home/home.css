@@ -1,5 +1,5 @@
 .home {
-    background-image: url(../../assets/galaxy.jpg);
+    background-image: url(../../assets/stars.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -7,11 +7,125 @@
 
 .header {
     width: 100%;
-    background-color: #0e2134; 
+    background-color: #0e2134;
     text-align: center;
 }
 
 .header h2 {
     margin: 0 auto;
     color: grey;
+}
+
+.system {
+    height: 100%;
+}
+
+.sun {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -48px;
+    margin-left: -48px;
+}
+
+.mercury {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
+    animation: rotate 10s infinite linear;
+}
+
+.venus {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -135px;
+    margin-left: -135px;
+    width: 270px;
+    height: 270px;
+    animation: rotate 12s infinite linear;
+}
+
+.earth {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -170px;
+    margin-left: -170px;
+    width: 340px;
+    height: 340px;
+    animation: rotate 14s infinite linear;
+}
+
+.mars {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -205px;
+    margin-left: -205px;
+    width: 410px;
+    height: 410px;
+    animation: rotate 16s infinite linear;
+}
+
+.jupiter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    margin-left: -240px;
+    width: 480px;
+    height: 480px;
+    animation: rotate 18s infinite linear;
+}
+
+.saturn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -280px;
+    margin-left: -280px;
+    width: 560px;
+    height: 560px;
+    animation: rotate 20s infinite linear;
+}
+
+.uranus {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -320px;
+    margin-left: -320px;
+    width: 640px;
+    height: 640px;
+    animation: rotate 22s infinite linear;
+}
+
+.neptune {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -350px;
+    width: 700px;
+    height: 700px;
+    animation: rotate 24s infinite linear;
+}
+
+.planetImg {
+    width: 48px;
+    height: 48px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
