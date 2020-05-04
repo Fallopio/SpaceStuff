@@ -9,6 +9,8 @@ import Home from './home/home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import MarsCarousel from './mars-carousel/marsCarousel';
 import Daily from './daily/daily';
+import Sun from './solar-info/sun/sun';
+import MoonMap from './moon-map/moonMap';
 
 function Main(props) {
     useEffect(() => {
@@ -24,8 +26,11 @@ function Main(props) {
                     <Route exact path='/'>
                         <Home />
                     </Route>
-                    <Route exact path='/map'>
+                    <Route exact path='/MarsMap'>
                         <MarsMap />
+                    </Route>
+                    <Route exact path='/MoonMap'>
+                        <MoonMap />
                     </Route>
                     <Route exact path='/marsPics'>
                         <MarsCarousel />
@@ -33,6 +38,9 @@ function Main(props) {
                     <Route exact path='/daily'>
                         <Daily />
                     </Route>
+                    <Route exact path='/sun'>
+                        <Sun />
+                    </Route>                    
                 </Switch>
             </BrowserRouter>
 

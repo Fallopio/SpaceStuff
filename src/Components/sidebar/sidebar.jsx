@@ -7,13 +7,16 @@ import { Link } from 'react-router-dom'
 function Sidebar() {
     return (
         <div className='sidebar' >
-            <Link to='/'>
+            <Link title='home' to='/'>
                 <i className="fas fa-home"></i>
             </Link>
-            <Link to='/map'>
-                <i className="fas fa-map"></i>
+            <Link title='view awesome map of mars' to='/MarsMap'>
+                <i className="fas fa-circle"></i>
             </Link>
-            <Link to='/marsPics'>
+            <Link title='view awesome map of moon' to='/MoonMap'>
+                <i class="fas fa-moon"></i>
+            </Link>
+            <Link title='awesome photos of Mars surface' to='/marsPics'>
                 <i className="fas fa-camera"></i>
             </Link>
             <Link to='/daily'>
