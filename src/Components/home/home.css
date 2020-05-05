@@ -35,10 +35,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -5vw;
-    margin-left: -5vw;
-    width: 10vw;
-    height: 10vw;
+    margin-top: -4vw;
+    margin-left: -4vw;
+    width: 8vw;
+    height: 8vw;
     animation: rotate 10s infinite linear;
 }
 
@@ -46,10 +46,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -7vw;
-    margin-left: -7vw;
-    width: 14vw;
-    height: 14vw;
+    margin-top: -6vw;
+    margin-left: -6vw;
+    width: 12vw;
+    height: 12vw;
     animation: rotate 12s infinite linear;
 }
 
@@ -57,10 +57,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -9vw;
-    margin-left: -9vw;
-    width: 18vw;
-    height: 18vw;
+    margin-top: -8vw;
+    margin-left: -8vw;
+    width: 16vw;
+    height: 16vw;
     animation: rotate 14s infinite linear;
 }
 
@@ -68,10 +68,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -11vw;
-    margin-left: -11vw;
-    width: 22vw;
-    height: 22vw;
+    margin-top: -10vw;
+    margin-left: -10vw;
+    width: 20vw;
+    height: 20vw;
     animation: rotate 16s infinite linear;
 }
 
@@ -79,10 +79,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -13vw;
-    margin-left: -13vw;
-    width: 26vw;
-    height: 26vw;
+    margin-top: -12vw;
+    margin-left: -12vw;
+    width: 24vw;
+    height: 24vw;
     animation: rotate 18s infinite linear;
 }
 
@@ -90,10 +90,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -15vw;
-    margin-left: -15vw;
-    width: 30vw;
-    height: 30vw;
+    margin-top: -14vw;
+    margin-left: -14vw;
+    width: 28vw;
+    height: 28vw;
     animation: rotate 20s infinite linear;
 }
 
@@ -101,10 +101,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -17vw;
-    margin-left: -17vw;
-    width: 34vw;
-    height: 34vw;
+    margin-top: -16vw;
+    margin-left: -16vw;
+    width: 32vw;
+    height: 32vw;
     animation: rotate 22s infinite linear;
 }
 
@@ -112,10 +112,10 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -18.5vw;
-    margin-left: -18.5vw;
-    width: 37vw;
-    height: 37vw;
+    margin-top: -18vw;
+    margin-left: -18vw;
+    width: 36vw;
+    height: 36vw;
     animation: rotate 24s infinite linear;
 }
 
