@@ -11,6 +11,7 @@ import MarsCarousel from './mars-carousel/marsCarousel';
 import Daily from './daily/daily';
 import Sun from './solar-info/sun/sun';
 import MoonMap from './moon-map/moonMap';
+import PlanetsCarousel from './planets-carousel/planetsCarousel';
 
 function Main(props) {
     useEffect(() => {
@@ -40,7 +41,10 @@ function Main(props) {
                     </Route>
                     <Route exact path='/sun'>
                         <Sun />
-                    </Route>                    
+                    </Route>
+                    <Route exact path='/PlanetsPhotos'>
+                        <PlanetsCarousel />
+                    </Route>
                 </Switch>
             </BrowserRouter>
 

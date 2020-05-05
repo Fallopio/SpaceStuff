@@ -14,7 +14,7 @@ function MarsCarousel(props) {
             props.marsPics.length > 1 ?
             props.marsPics.map(i =>
                 <div key={i.id}>
-                    <img src={i.img_src} alt="" />
+                    <img className='s' src={i.img_src} alt="" />
                 </div>
             ): <div />}
         </Carousel>

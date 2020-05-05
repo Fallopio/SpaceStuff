@@ -22,6 +22,9 @@ function Sidebar() {
             <Link to='/daily'>
                 <i className="far fa-image"></i>
             </Link>
+            <Link title='photos of planets' to='/PlanetsPhotos'>
+                <i class="fas fa-globe-asia"></i>
+            </Link>
         </div>
     )
 }
