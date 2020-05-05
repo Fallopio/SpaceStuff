@@ -14,7 +14,7 @@ function Sidebar() {
                 <i className="fas fa-circle"></i>
             </Link>
             <Link title='view awesome map of moon' to='/SpaceStuff/MoonMap'>
-                <i class="fas fa-moon"></i>
+                <i className="fas fa-moon"></i>
             </Link>
             <Link title='awesome photos of Mars surface' to='/SpaceStuff/marsPics'>
                 <i className="fas fa-camera"></i>
@@ -23,7 +23,7 @@ function Sidebar() {
                 <i className="far fa-image"></i>
             </Link>
             <Link title='photos of planets' to='/SpaceStuff/PlanetsPhotos'>
-                <i class="fas fa-globe-asia"></i>
+                <i className="fas fa-globe-asia"></i>
             </Link>
         </div>
     )
