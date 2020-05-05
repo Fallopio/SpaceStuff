@@ -24,25 +24,25 @@ function Main(props) {
             <BrowserRouter>
                 <Sidebar />
                 <Switch>
-                    <Route exact path='/'>
+                    <Route exact path='/SpaceStuff'>
                         <Home />
                     </Route>
-                    <Route exact path='/MarsMap'>
+                    <Route exact path='/SpaceStuff/MarsMap'>
                         <MarsMap />
                     </Route>
-                    <Route exact path='/MoonMap'>
+                    <Route exact path='/SpaceStuff/MoonMap'>
                         <MoonMap />
                     </Route>
-                    <Route exact path='/marsPics'>
+                    <Route exact path='/SpaceStuff/marsPics'>
                         <MarsCarousel />
                     </Route>
-                    <Route exact path='/daily'>
+                    <Route exact path='/SpaceStuff/daily'>
                         <Daily />
                     </Route>
-                    <Route exact path='/sun'>
+                    <Route exact path='/SpaceStuff/sun'>
                         <Sun />
                     </Route>
-                    <Route exact path='/PlanetsPhotos'>
+                    <Route exact path='/SpaceStuff/PlanetsPhotos'>
                         <PlanetsCarousel />
                     </Route>
                 </Switch>
