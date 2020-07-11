@@ -14,10 +14,11 @@ import MoonMap from './moon-map/moonMap';
 import PlanetsCarousel from './planets-carousel/planetsCarousel';
 
 function Main(props) {
+    const { getMars, getDaily } = props;
     useEffect(() => {
-        props.getMars()
-        props.getDaily()
-    }, [])
+        getMars();
+        getDaily();
+    }, [getMars, getDaily]);
 
     return (
         <div className='main'>

@@ -13,7 +13,7 @@ import Nep from '../../assets/planet-icons/neptune.png'
 import { useState } from 'react'
 
 function Home() {
-    const [speed, setSpeed] = useState(1)
+    const [speed, setSpeed] = useState(2);
     return (
         <div className='home'>
             <div className='system'>
@@ -44,7 +44,7 @@ function Home() {
                 <div className='neptune' style={{animation: `rotate ${24 / speed}s infinite linear`}}>
                     <img className='planetImg' src={Nep} alt="" />
                 </div>
-                <input type="range" min='1' max='10' defaultValue='1' step='0.1' onChange={e => setSpeed(e.target.value)}/>
+                {/* <input type="range" min='1' max='3' defaultValue='3' step='0.001' onChange={e => setSpeed(e.target.value)}/> */}
             </div>
         </div>
     )
